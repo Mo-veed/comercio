@@ -4576,6 +4576,7 @@ textarea.form-control-lg {
 }
 
 .card-body {
+  margin: 1rem;
   flex: 1 1 auto;
   padding: 1rem 1rem;
 }
@@ -11371,3 +11372,12 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+/* Estilos personalizados para botones con colores únicos */
+#business-directory a:nth-child(1) { background-color: #e63946; color: #fff; }
+#business-directory a:nth-child(2) { background-color: #f1faee; color: #000; }
+#business-directory a:nth-child(3) { background-color: #a8dadc; color: #000; }
+#business-directory a:nth-child(4) { background-color: #457b9d; color: #fff; }
+#business-directory a:nth-child(5) { background-color: #1d3557; color: #fff; }
+/* Agregar más estilos según sea necesario */

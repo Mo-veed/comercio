@@ -5053,3 +5053,16 @@ function _interopNamespace(e) {
 
 }));
 //# sourceMappingURL=bootstrap.js.map
+
+
+
+// Función para filtrar las categorías según el término de búsqueda
+function performSearch() {
+    const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+    const businessLinks = document.querySelectorAll("#business-directory a");
+
+    businessLinks.forEach(link => {
+        const text = link.textContent.toLowerCase();
+        link.style.display = text.includes(searchTerm) ? "inline-block" : "none";
+    });
+}
