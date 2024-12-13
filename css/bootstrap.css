@@ -6047,6 +6047,30 @@ textarea.form-control-lg {
   color: #212529;
 }
 
+.banner  {
+  display: flex;
+  width: 100%;
+  height: 215px;
+
+}
+
+.banner img  {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .5;
+  transition: .5s ease;
+
+}
+
+.banner img:hover  {
+  cursor: crosshair;
+  width: 150px;
+  opacity: .9;
+  filter: contrast(120%);
+
+}
+
 .carousel {
   position: relative;
 }
