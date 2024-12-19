@@ -396,6 +396,33 @@ select:disabled {
             border-color: #007bff;
         }
 
+.pagination-net {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+        .pagination-net li {
+            margin: 0 5px;
+        }
+        .pagination-net a{
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            background-color: #128c7e;
+            text-decoration: none;
+            color: #ffffff;
+            transition: background-color 0.3s;
+            border-radius: 10%; 
+        }
+        .pagination-net a:hover {
+            background-color: #128c7e96;
+        }
+        .pagination-net a.active {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
 button,
 [type=button],
 [type=reset],
