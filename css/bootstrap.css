@@ -3069,6 +3069,13 @@ textarea.form-control-lg {
   border-radius: 1rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+.icono {
+  display: inline-block;
+  margin-bottom: 24px;
+  text-align: center;
+  width: 8rem;
+}
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
