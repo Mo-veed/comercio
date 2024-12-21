@@ -3074,7 +3074,7 @@ textarea.form-control-lg {
   display: inline-block;
   margin-bottom: 24px;
   text-align: center;
-  width: 8rem;
+  width: 6rem;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
