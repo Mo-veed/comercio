@@ -3076,6 +3076,16 @@ textarea.form-control-lg {
   text-align: center;
   width: 7rem;
 }
+
+.icono-text {
+  display: flow;
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
