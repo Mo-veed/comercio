@@ -3078,6 +3078,7 @@ textarea.form-control-lg {
 }
 
 .icono-text {
+  font-size: small;
   display: flow;
   margin: 10px;
   text-align: center;
