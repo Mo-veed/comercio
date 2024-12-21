@@ -3074,11 +3074,10 @@ textarea.form-control-lg {
   display: inline-block;
   margin-bottom: 10px;
   text-align: center;
-  width: 7rem;
+  width: 9rem;
 }
 
 .icono-text {
-  font-size: small;
   display: flow;
   margin: 10px;
   text-align: center;
