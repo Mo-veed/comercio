@@ -408,11 +408,11 @@ select:disabled {
         .pagination-net a{
             padding: 10px 15px;
             border: 1px solid #ccc;
-            background-color: #128c7e;
+            background-color: #38d671;
             text-decoration: none;
             color: #ffffff;
             transition: background-color 0.3s;
-            border-radius: 10%; 
+            border-radius: 2rem; 
         }
         .pagination-net a:hover {
             background-color: #128c7e96;
@@ -4650,6 +4650,7 @@ textarea.form-control-lg {
   margin: 1rem;
   flex: 1 1 auto;
   padding: 1rem 1rem;
+
 }
 
 .card-title {
