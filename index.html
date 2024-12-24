@@ -94,22 +94,16 @@
       <a href="../comercio/mascotas.html">
         <img class="icono" src="../comercio/images/categoria/mascota.webp" alt="Mascotas">
       </a>
-      <div class="icono-text">Mascotas</div>
+      <div class="icono-text">Agro & Mascotas</div>
     </div>
-    <div class="col-5">
-      <a href="../comercio/agropecuario.html">
-        <img class="icono" src="../comercio/images/categoria/agropecuario.webp" alt="Agropecuario">
-      </a>
-      <div class="icono-text">Agropecuario</div>
-      </div>
-      <div class="py-5 text-center container">
-  <div class="row">
     <div class="col-5">
       <a href="../comercio/mecanica.html">
         <img class="icono" src="../comercio/images/categoria/mecanica.webp" alt="Mecánica">
       </a>
       <div class="icono-text">Mecánica</div>
     </div>
+      <div class="py-5 text-center container">
+  <div class="row">
     <div class="col-5">
       <a href="../comercio/inmobiliaria.html">
         <img class="icono" src="../comercio/images/categoria/inmobiliaria.webp" alt="Inmobiliaria">
@@ -122,14 +116,14 @@
       </a>
       <div class="icono-text">Hoteles</div>
       </div>
-      <div class="py-5 text-center container">
-  <div class="row">
     <div class="col-5">
       <a href="../comercio/tecnologia.html">
         <img class="icono" src="../comercio/images/categoria/tecnologia.webp" alt="Tecnología">
       </a>
       <div class="icono-text">Tecnología</div>
     </div>
+      <div class="py-5 text-center container">
+  <div class="row">
     <div class="col-5">
       <a href="../comercio/transporte.html">
         <img class="icono" src="../comercio/images/categoria/transporte.webp" alt="Transporte">
@@ -142,14 +136,14 @@
       </a>
       <div class="icono-text">Construcción</div>
       </div>
-      <div class="py-5 text-center container">
-  <div class="row">
     <div class="col-5">
       <a href="../comercio/deportivo.html">
         <img class="icono" src="../comercio/images/categoria/deporte.webp" alt="Deportes">
       </a>
       <div class="icono-text">Deportes</div>
     </div>
+      <div class="py-5 text-center container">
+  <div class="row">
     <div class="col-5">
       <a href="../comercio/ferreteria.html">
         <img class="icono" src="../comercio/images/categoria/ferreteria.webp" alt="Ferretería">
@@ -161,13 +155,6 @@
         <img class="icono" src="../comercio/images/categoria/profesionales.webp" alt="Servicios Profesionales">
       </a>
       <div class="icono-text">Serv. Profesionales</div>
-      </div>
-      <div class="row">
-    <div class="col-5">
-      <a href="../comercio/financiero.html">
-        <img class="icono" src="../comercio/images/categoria/financieros.webp" alt="Servicios Financieros">
-      </a>
-      <div class="icono-text">Serv. Financieros</div>
     </div>
   </section>
 </main>
@@ -179,15 +166,24 @@
 </footer>
 
 
- <script src="../comercio/js/bootstrap.js"></script><script type="module">
-    import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'
-    Typebot.initBubble({
-    typebot: "directorio-sabana-de-torres",
-    theme: {
-      button: { backgroundColor: "#0042DA" },
-      chatWindow: { backgroundColor: "#fff" },
+ <script src="../comercio/js/bootstrap.js"></script>
+ <script type="module">const typebotInitScript = document.createElement("script");
+typebotInitScript.type = "module";
+typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'
+
+Typebot.initBubble({
+  typebot: "directorio-sabana-de-torres",
+  theme: {
+    button: {
+      backgroundColor: "#FFFFFF",
+      customIconSrc:
+        "https://s3.typebot.io/public/workspaces/cm3gilots0001kblvfha32qx1/typebots/cm4h67w45000m92g6ixul721s/bubble-icon?v=1735058349760",
+      size: "large",
     },
-  });
+  },
+});
+`;
+document.body.append(typebotInitScript);
 </script>
 
       
