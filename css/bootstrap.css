@@ -406,6 +406,7 @@ select:disabled {
             margin: 0 5px;
         }
         .pagination-net a{
+            display: inline-block;
             padding: 10px 15px;
             border: 1px solid #ccc;
             background-color: #38d671;
